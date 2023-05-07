@@ -75,7 +75,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: 
 }
 
 .header-logo {
@@ -83,6 +82,105 @@ a {
 }
 
 
+
+.information {
+    color: #1f2937;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+    gap: 20px;
+}
+
+.card {
+    padding: 5px;
+    width: 240px;
+    /*
+    border: 2px solid #1f2937;
+    border-radius: 7px;
+    */
+}
+
+.card p {
+    padding: 5px;
+}
+
+.card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    flex: 0 1 600px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1f2937
+}
+.autor {
+    text-align: right;
+    font-weight: 800;
+}
+
+.pet-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+.modal {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 15px 70px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.modal-header {
+    font-weight: bold;
+    font-size: 21px;
+    margin: 4px;
+}
+
+.modal-text {
+    margin: 4px;
+}
+
+.modal .pet-button {
+    border-color: white;
+    color: white;
+    align-self: center;
+    flex: 0 0 auto;
+
+}
+
 footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
